@@ -1,0 +1,44 @@
+# Supervised Learning
+
+Learning from **labeled data** (input + correct answer).
+
+**Example:**  
+Spam detection using emails labeled “spam” or “not spam”.
+
+## User impact
+- Automatically filters spam
+- Saves user time
+
+## PM tip
+- Label quality matters — inconsistent labels = poor UX
+
+# Unsupervised Learning
+
+Learns patterns **without labeled data**.
+
+**Example:**  
+User segmentation based on behavior.
+
+## User impact
+- Enables personalization without explicit inputs
+
+## PM tip
+- Great for insights
+- Harder to measure accuracy
+
+# Reinforcement Learning
+
+Learns via **trial and error**, using rewards and penalties.
+
+**Examples:**
+- Game AI (Chess, Go)
+- Recommendation systems optimizing engagement
+
+## User impact
+- Improves continuously
+- Adapts to preferences over time
+
+## PM tip
+- Reward definition is critical
+- Poor rewards can lead to harmful behavior
+

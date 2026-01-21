@@ -1,0 +1,138 @@
+# AI Basics: Data, Features, Models 
+
+## 1. Data
+
+**Data** is the raw material AI learns from.  
+It can be numbers, text, images, audio, or video.
+
+> Think of data as **fuel for the AI engine** — without it, AI cannot learn.
+
+### User Impact
+- **High-quality data** → accurate predictions → better UX
+- **Poor or biased data** → wrong recommendations → frustration
+
+**Examples**
+- Spotify recommending songs you dislike → low engagement
+- Google Photos tagging errors → user frustration
+
+### PM Considerations
+- Do we have **enough clean and relevant data**?
+- Monitor for **bias, gaps, and outdated data**
+- Ensure compliance with **privacy regulations**
+  - GDPR
+  - HIPAA (especially in healthcare)
+
+**Example**
+- AI in healthcare must strictly protect patient data
+
+---
+
+## 2. Features
+
+**Features** are the inputs the model uses to make predictions.
+
+**Examples**
+- Churn prediction:
+  - User activity
+  - Session duration
+  - Past purchases
+
+### User Impact
+- **Relevant features** → smarter predictions → personalization
+- **Irrelevant features** → bad recommendations → poor UX
+
+### PM Considerations
+- Focus only on features that impact **user outcomes**
+- Avoid feature bloat — more inputs ≠ better results
+
+**Example**
+- E-commerce recommendations should include:
+  - Recent searches
+  - Purchase history
+  - Product ratings  
+- Avoid unrelated or random data points
+
+---
+
+## 3. Model
+
+The **model** is the trained AI system that predicts, classifies, or generates outputs.
+
+> Think of the model as the **brain** built from data and features.
+
+### User Impact
+- Strong model → relevant and reliable outputs
+- Weak model → incorrect results and bad UX
+
+### PM Considerations
+- Understand the **model type and limitations**
+- Evaluate:
+  - Accuracy
+  - Fairness
+  - Latency
+  - Scalability
+
+**Example**
+- A chatbot using a small model may fail in long conversations → poor UX
+
+---
+
+## 4. Training vs Inference
+
+### Training
+- Teaching the model using historical data
+- Expensive and time-consuming
+- Happens **before** launch
+
+### Inference
+- Using the trained model to make predictions
+- Happens **live** for users
+
+### User Impact
+- Users experience **inference**, not training
+- Key concerns:
+  - Speed
+  - Accuracy
+  - Relevance
+
+### PM Considerations
+- Ensure training data is **representative**
+- Optimize inference for:
+  - Low latency
+  - Smooth UX
+
+**Example**
+- AI-powered search must respond in **< 1 second** to maintain engagement
+
+---
+
+## 5. Evaluation Metrics
+
+Metrics measure how well the AI performs.
+
+### Common Metrics
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- AUC
+
+### User Impact Mapping
+- Accuracy → correct recommendations
+- Precision → fewer false positives
+- Recall → fewer missed opportunities
+
+### PM Considerations
+- Don’t rely on accuracy alone
+- Choose metrics aligned with **user value**
+
+**Example**
+- Fraud detection:
+  - High **recall** is more important than perfect accuracy
+  - Missing fraud is worse than flagging a few false cases
+
+---
+
+## Key PM Takeaway
+
+> AI success = **Good Data + Right Features + Suitable Model + Correct Metrics**

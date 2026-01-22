@@ -1,0 +1,17 @@
+# Overfitting vs Underfitting
+
+## Overfitting
+Model memorizes training data but fails on new data.
+
+## Underfitting
+Model is too simple to capture patterns.
+
+## User impact
+- Overfitting: works for few users, fails for many
+- Underfitting: inaccurate features, low trust
+
+## PM considerations
+- Monitor model performance continuously
+
+**Example:**  
+Irrelevant recommendations often indicate underfitting.
